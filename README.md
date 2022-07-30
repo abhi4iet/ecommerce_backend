@@ -32,7 +32,18 @@ heroku login
 
 # Create the project
 heroku create your-api-project-name
+```
 
+Go to [Heroku Dashboard](https://dashboard.heroku.com/apps)
+```sh
+# Find the project on heroku dashboard
+# open the project and go to settings
+# click on Reveal config vars
+# type PORT in key and provide a suitable value for example 8000
+```
+
+
+```sh
 # Deploy to Heroku
 git push heroku master
 ```
