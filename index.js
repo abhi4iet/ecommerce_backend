@@ -1,11 +1,8 @@
-require('dotenv').config()
 const { exec } = require('child_process');
 
 // Set port (default: 3000). For Heroku, we need to use
 // the port set by the environment variable $PORT
 const port = process.env.PORT || 5050;
-
-console.log("port", port);
 
 const command = `json-server --watch db.json --port ${port}`;
 
