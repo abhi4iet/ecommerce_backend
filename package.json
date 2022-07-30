@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce_backend",
+  "version": "1.1.0",
+  "description": "Mock Json Server for E-commerce Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abhishek Verma",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
