@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { exec } = require('child_process');
 
 // Set port (default: 3000). For Heroku, we need to use
